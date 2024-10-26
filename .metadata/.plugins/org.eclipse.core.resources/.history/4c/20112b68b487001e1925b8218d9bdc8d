@@ -1,0 +1,22 @@
+package prgm;
+
+import java.util.Scanner;
+
+public class ab {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner (System.in);
+System.out.println("enter some value");
+	int y=sc.nextInt();
+	System.out.println("the value is");
+	System.out.print(y);
+	
+	
+	Scanner sc1=new Scanner (System.in);
+	System.out.println("enter some value");
+		double x=sc1.nextDouble();
+		System.out.println("the value is");
+		System.out.print(x);
+	}
+
+}
